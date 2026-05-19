@@ -99,7 +99,6 @@ I am looking to grow into roles such as:
 
 ---
 
-=======
 ## Contact
 
 
