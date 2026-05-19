@@ -99,7 +99,9 @@ I am looking to grow into roles such as:
 
 ---
 
+=======
 ## Contact
+
 
 - GitHub: [@Frikzai](https://github.com/Frikzai)
 - Email: salelogan99@gmail.com
