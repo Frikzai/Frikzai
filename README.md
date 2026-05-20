@@ -1,36 +1,41 @@
-# Hi, I'm Logan 👋
+# Hi, I'm Logan👋
 
-I am interested in systems administration, networking, cloud infrastructure, and automation.
+I am interested in systems administration, networking, cloud infrastructure, automation, and secure self-hosted services.
 
-I work on infrastructure-oriented projects focused on Linux, networking, Infrastructure as Code, security, monitoring, and DevOps practices.
+I build hands-on infrastructure projects focused on Linux, cloud platforms, Infrastructure as Code, configuration management, monitoring, security, Docker, and DevOps practices.
 
 ---
 
 ## About me
 
-I have a background in systems and network administration, with hands-on experience in Linux environments, infrastructure deployment, cloud services, and automation tools.
+I have a background in systems and network administration, with hands-on experience in Linux environments, infrastructure deployment, cloud services, automation tools, and self-hosted platforms.
 
 My current focus is to improve my skills in:
 
 - Linux system administration
 - Cloud infrastructure
-- Network architecture
+- Network and service architecture
 - Infrastructure as Code
 - Configuration management
+- Docker and containerized services
 - Monitoring and observability
 - Secure infrastructure design
+- CI/CD automation
 
 ---
 
 ## Technical skills
 
 - Linux administration
-- Networking: VCN/VPC, subnets, routing, bastion host, firewalls
+- Networking: VCN/VPC, subnets, routing, bastion host, firewalling
 - Cloud: Oracle Cloud Infrastructure
 - Infrastructure as Code: Terraform
 - Configuration management: Ansible
-- Monitoring: Prometheus, Grafana, node_exporter
-- Security: SSH hardening, fail2ban, network segmentation
+- Containers: Docker, Docker Compose
+- Reverse proxy: Nginx Proxy Manager
+- Monitoring: Prometheus, Grafana, node_exporter, Uptime Kuma
+- Security: SSH hardening, fail2ban, UFW, network segmentation
+- Backups: systemd timers, backup scripts, restore testing
 - CI/CD: GitHub Actions
 - Version control: Git and GitHub
 
@@ -39,16 +44,18 @@ My current focus is to improve my skills in:
 ## Tools and technologies
 
 ![Linux](https://img.shields.io/badge/Linux-333333?style=for-the-badge&logo=linux&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
-## Featured project
+## Featured projects
 
 ### Oracle Cloud Infrastructure Automation Lab
 
@@ -71,19 +78,47 @@ Repository: [oracle-cloud-iac-lab](https://github.com/Frikzai/oracle-cloud-iac-l
 
 ---
 
-## What this project demonstrates
+### Docker Secure Platform
 
-This project demonstrates my ability to:
+A secure self-hosted Docker platform deployed on Oracle Cloud Free Tier.
 
-- Design a secure cloud infrastructure
-- Segment a network using public and private subnets
-- Use a bastion host to access private servers
-- Provision infrastructure with Terraform
-- Configure Linux servers with Ansible
-- Apply basic hardening and security practices
-- Deploy a monitoring stack with Prometheus and Grafana
-- Use GitHub Actions to validate infrastructure code
-- Document an infrastructure project clearly
+The project includes:
+
+- Public Oracle Cloud VM provisioned with Terraform
+- Docker installation automated with Ansible
+- Docker Compose service orchestration
+- Nginx Proxy Manager as a reverse proxy
+- HTTPS certificates with Let's Encrypt
+- DuckDNS-based public access
+- Portainer for Docker management
+- Uptime Kuma for service monitoring
+- Homepage as a service dashboard
+- Vaultwarden as a self-hosted password manager
+- UFW, fail2ban, and SSH hardening
+- Automated Docker volume backups with systemd timers
+- Restore test procedure
+- GitHub Actions CI for Docker Compose, YAML, and shell script validation
+
+Repository: [docker-secure-platform](https://github.com/Frikzai/docker-secure-platform)
+
+---
+
+## What these projects demonstrate
+
+These projects demonstrate my ability to:
+
+- Design and deploy cloud infrastructure
+- Use Terraform to provision cloud resources
+- Use Ansible to configure Linux servers
+- Segment and secure cloud networks
+- Manage private servers through a bastion host
+- Deploy and operate Docker-based services
+- Configure a reverse proxy with HTTPS certificates
+- Secure public Linux servers
+- Monitor infrastructure and services
+- Automate backups and test restore procedures
+- Build clear technical documentation
+- Use GitHub Actions to validate infrastructure and configuration code
 
 ---
 
@@ -100,7 +135,6 @@ I am looking to grow into roles such as:
 ---
 
 ## Contact
-
 
 - GitHub: [@Frikzai](https://github.com/Frikzai)
 - Email: salelogan99@gmail.com
